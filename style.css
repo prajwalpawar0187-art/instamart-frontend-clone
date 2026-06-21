@@ -19,6 +19,7 @@ header{
     /*padding-bottom:18px;*/
 }
 #main-logo{
+    cursor: not-allowed;
     height: 49.95px;
     width:132px;
     border-right:1px solid rgba(203, 199, 199, 0.8);
@@ -87,6 +88,10 @@ header{
     border: none;
     border-radius:10px;
     font-weight: 600;
+}
+.cart:hover{
+    background-color:blue;
+    color:white;
 }
 main{
     position:relative ;
@@ -296,20 +301,38 @@ footer{
     font-size:24px;
     font-family:sans-serif
 }
+#txt:hover{
+    transition: 0.3s;
+     text-shadow: 0px 1px 2px grey;
+}
 .playstore{
+    height:47px;
+    width:157x;
     position: absolute;
     left:150px;
     top:120px;
 }
+.playstore:hover{
+    box-shadow: 0px 4px 10px black;
+}
 .applestore{
+    height:47px;
+    width:157x;
     position: absolute;
     left:330px;
     top:120px;
+}
+.applestore:hover{
+    box-shadow: 0px 4px 10px black;
 }
 .mobile{
     position: absolute;
     left:700px;
     top:-9px;
+}
+.mobile:hover{
+    transition: 0.7s;
+    transform: scale(1.1);
 }
 .footer2{
     display:flex;
