@@ -40,6 +40,7 @@ header{
     display:inline-block;
 }
 #add-location{
+    outline:none;
     color:gray;
     border:none;
     width:20px;
@@ -52,6 +53,7 @@ header{
     background-color: #F0F0F5;
     padding-left:16px;
     padding-right: 16px;
+    outline:none;
 }
 .search{
     padding:0px 16px 0p 16px;
